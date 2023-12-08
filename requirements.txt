@@ -1,0 +1,9 @@
+numpy 
+pandas 
+matplotlib 
+seaborn 
+torch 
+einops
+xformers
+transformers
+tqdm 
