@@ -18,11 +18,6 @@ After extensive experimentation, it was observed that a context size of 25 yield
 2. **Model Configuration:**
    - Adjust the configuration file to include your modifications (rotational positional embedding, sliding window attention, multi-query attention). Additionally, introduce random model configurations to add an element of variability.
 
-3. **Training:**
-   - Train the model using the following command:
-     ```bash
-     python train.py --context_size 25 --embedding_type shakesperean --random_config --other_parameters...
-     ```
 
 4. **Evaluation:**
    - Evaluate the model on your test set to assess its performance.
